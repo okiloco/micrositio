@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body{
+	color:#FFF;
+	margin:0px;
+	padding: 0px;
+	font-family: Roboto;
+    background-color: #363F45;
+}
+.search-container{
+	margin: 15% auto;
+}
+#goback_search {
+    position: fixed;
+    top: 2.5em;
+    left: 0px;
+    width: 20px;
+    z-index: 999999;
+}
+.transit{
+    width: 48px!important;
+    height: 48px!important;
+    display: inline-block!important;
+    background-color: rgba(255, 255, 255, 0.83);
+	-webkit-mask-image: url(../resources/images/car-and-radar-security.svg);
+    mask-image: url(../resources/images/car-and-radar-security.svg);
+    -webkit-mask-size: cover;
+  	mask-size: cover;
+}
+.speed-road-radar{
+    width: 48px!important;
+    height: 48px!important;
+    display: inline-block!important;
+    background-color: rgba(255, 255, 255, 0.83);
+	-webkit-mask-image: url(../resources/images/speed-road-radar.svg);
+    mask-image: url(../resources/images/speed-road-radar.svg);
+    -webkit-mask-size: cover;
+  	mask-size: cover;
+}
+.icon-teal { background-color: teal; }
+
+.modal{
+	z-index: 999999;
+	top:5%;
+	position: absolute;
+}

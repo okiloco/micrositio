@@ -1,0 +1,21 @@
+<ng-include src="'/app/templates/view-modal.html'"></ng-include>
+<div class="row">
+  <div class="col-lg-3"></div>
+  
+  <div class="col-lg-6 search-container">
+   
+   <div class="ui center aligned container">
+     <i class="huge teal speed-road-radar icon"></i>
+     <h1>Fiscalización elctrónica</h1>
+     <p>Ingrese el número de indentificación de la placa a consultar.</p>
+     <div class="ui action input">
+       <input ng-model="placa" ng-enter="enviar()" id="search_input" type="text" placeholder="Consultar por placa...">
+       <button ng-click="enviar()" class="ui icon teal button" data-inverted="" data-tooltip="Consultar" data-position="right center">
+         <i class="search icon" ></i>
+       </button>
+     </div>
+   </div>
+   
+  </div><!-- /.col-lg-6 -->
+  <div class="col-lg-3"></div>
+</div><!-- /.row -->

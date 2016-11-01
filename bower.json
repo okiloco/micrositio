@@ -1,0 +1,30 @@
+{
+  "name": "MicroSitio",
+  "authors": [
+    "Fabian Vargas Fontalvo"
+  ],
+  "description": "Micrositio Consultar Estado COmparendos",
+  "main": "MyApp",
+  "keywords": [
+    "comparendos",
+    "mobilidad",
+    "deteccion",
+    "electronica"
+  ],
+  "license": "MIT",
+  "homepage": "Consultar Comparendo",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "angular": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "adal-angular": "^1.0.12",
+    "font-awesome": "fontawesome#^4.7.0"
+  }
+}

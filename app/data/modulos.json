@@ -1,0 +1,40 @@
+{
+	"data":[
+		{
+			"className":"Desktop.modules.test.test",
+			"config": {"name" :"Test Module","iconCls": "laptop-shortcut","module" : "test"}
+		},
+		{
+			"className":"MovilidadApp.view.importador.Importador",
+			"config": {"name" :"Importador","iconCls": "import-shortcut", "itemIcon":"import-icon", "module" : "importador"}
+		},
+		{
+			"className":"MovilidadApp.view.exportador.Exportador",
+			"config": {"name" :"Imprimir","iconCls": "export-shortcut", "itemIcon":"export-icon", "module" : "exportador"}
+		},
+		{
+			"className":"MovilidadApp.view.mensajeria.Mensajeria",
+			"config": {"name" :"Mensajeria","iconCls": "messenger-shortcut", "itemIcon":"messenger-icon", "module" : "mensajeria"}
+		},
+		{
+			"className":"MovilidadApp.view.foliocomparendo.FolioComparendo",
+			"config": {"name" :"Folio Comparendo","iconCls": "folder-shortcut","itemIcon":"folder-icon","module" : "foliocomparendo"}
+		},
+		{
+			"className":"MovilidadApp.view.recibidodireccioncomercial.RecibidoDireccionComercial",
+			"config": {"name" :"Solicitud dirección comercial","iconCls": "placeholder-shortcut","module" : "recibidodireccioncomercial"}
+		},
+		{
+			"className":"MovilidadApp.view.notificacion.Notificacion",
+			"config": {"name" :"Notificación","iconCls": "school-bell-shortcut","module" : "notificacion"}
+		},
+		{
+			"className":"MovilidadApp.view.reconocimiento.Reconocimiento",
+			"config": {"name" :"Solicitud Audiencia","iconCls": "auction-shortcut","module" : "reconocimiento"}
+		},
+		{
+			"className":"MovilidadApp.view.exoneraciones.Exoneraciones",
+			"config": {"name" :"Exoneraciones","iconCls": "laptop-shortcut","module" : "exoneraciones"}
+		}
+	]
+} 
