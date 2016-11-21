@@ -1,5 +1,5 @@
 
-	
+<ng-include src="'/app/templates/view-modal-minuta.html'"></ng-include>	
 <a href="#/" id="goback_search" class="ui black big launch right attached fixed button" data-tooltip="Volver a consultar placa" data-inverted="" data-position="right center">
   <i class="search icon"></i>
 </a>
@@ -25,7 +25,16 @@
 		      </div>
 		      <div class="content" ng-if="!Audiencia(item.estado)">
 		      	El (la) señor(a) <b>{{item.nombreInfractor | uppercase}}</b> identificado(a) con Cédula No. <b>{{item.cedulaInfractor}}</b>, posee a la fecha una Notificación por aviso  por concepto de Multas y Sanciones por Infracciones deTránsito, en el Organismos de Tránsito {{item.organismo}}.
-		      </div>	
+		      </div>
+		      <div ng-if="item.path">
+			      <div class="list">
+				      <a ng-click="showModal(item.path);" class="item" title="Ver adjunto">
+				      	Ver adjunto
+				      	<i class="attach icon"></i>	
+				      </a>
+			      </div>
+		      </div>
+
 		    </div>
 		  </div>
 		</div>

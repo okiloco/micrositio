@@ -61,13 +61,30 @@
 			}
 	    }).modal('show');
  	}
+
  }])
  .controller('detalleCtrl', ['$scope','$location','appService', function($scope,$location,appService){
   	// if(typeof(appService)!="undefined"){
   		$scope.show=false;
   		$scope.data=(appService.data || JSON.parse(localStorage.getItem("data")));
+  		console.log($scope.data);
+  		
   		$scope.Audiencia=function(estado){
   			return (estado=='Audiencia Vinculacion'); 		
+  		}
+
+  		$scope.showModal=function(path){
+
+	 		$('#minuta-modal')
+		    .modal({
+		    	closable:true,
+		    	onVisible:function(){
+		    		$('.ui.embed').embed({
+		    		  url: 'ftp/'+path,
+		    		  autoplay:true
+		    		});
+				}
+		    }).modal('show');
   		}
 
   	// }
