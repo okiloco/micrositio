@@ -57,7 +57,7 @@
 	    .modal({
 	    	onHidden:function(){
 				$('#search_input').focus();
-				$scope.placa="XXX";
+				//$scope.placa="XXX";
 			}
 	    }).modal('show');
  	}
